@@ -1,0 +1,231 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Basic';
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 200vh;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+section {
+    width: 100vw;
+    padding: 1rem 5vw;
+    display: flex;
+    gap: 1rem;
+    align-items: flex-end;
+}
+
+section.design-one {
+    display: flex;
+    background: linear-gradient(to right, #00093c, #2d0b00);
+    align-items: flex-start;
+    flex-direction: column;
+
+    & .one-logo {
+        display: flex;
+        align-self: center;
+        border-radius: 100%;
+        height: 50px;
+        position: relative;
+    }
+
+    & .content {
+        text-decoration: none;
+        align-self: center;
+        position: relative;
+        margin: 1rem;
+
+        & a {
+            color: white;
+            font-weight: 600;
+            font-size: 1.1rem;
+            padding: 1.5rem;
+        }
+    }
+
+    & .disclaimer {
+        font-size: .8rem;
+        width: 5vw;
+        display: flex;
+        align-self: center;
+        height: 100%;
+        color: white;
+    }
+}
+
+section.design-two {
+    display: flex;
+    background: linear-gradient(to right, #00093c, #2d0b00);
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: space-between;
+
+    & .one-logo {
+        display: flex;
+        align-self: center;
+        border-radius: 100%;
+        height: 50px;
+        position: relative;
+    }
+
+    &  .content {
+        text-decoration: none;
+        align-self: center;
+        position: relative;
+        margin: 1rem;
+        color: white;
+        gap: 1rem;
+
+        & i {
+            color: white;
+            font-weight: 600;
+            font-size: 1.1rem;
+            padding: 1rem;
+        }
+    }
+
+    & .disclaimer {
+        font-size: .8rem;
+        width: 5vw;
+        display: flex;
+        align-self: center;
+        align-items: center;
+        height: 100%;
+        color: white;
+    }
+}
+
+section.design-three {
+    display: flex;
+    background: linear-gradient(to right, #00093c, #2d0b00);
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    & .one-logo {
+        display: flex;
+        align-self: center;
+        border-radius: 100%;
+        height: 50px;
+        position: relative;
+    }
+
+    & .content {
+        text-decoration: none;
+        align-self: center;
+        position: relative;
+        margin: 1rem;
+
+        & a {
+            color: white;
+            font-weight: 600;
+            font-size: 1.1rem;
+            padding: 1.5rem;
+        }
+    }
+
+    & .disclaimer {
+        font-size: .8rem;
+        width: 5vw;
+        display: flex;
+        align-items: center;
+        height: 100%;
+        color: white;
+        position: relative;
+    }
+}
+
+section.design-four {
+    display: flex;
+    background: linear-gradient(to right, #00093c, #2d0b00);
+    align-items: flex-start;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+
+    & .logo {
+        justify-content: column;
+        color: white;
+
+        & img {
+            display: flex;
+            align-self: center;
+            border-radius: 100%;
+            height: 50px;
+            position: relative;
+        }
+
+        & h3 {
+            position: relative;
+        }
+    }
+
+    & .content {
+        text-decoration: none;
+        align-self: center;
+        position: relative;
+        margin: 1rem;
+
+        & a {
+            color: white;
+            font-weight: 600;
+            font-size: 1.1rem;
+        }
+    }
+
+    & .disclaimer {
+        font-size: .8rem;
+        width: 5vw;
+        display: flex;
+        align-items: center;
+        height: 100%;
+        color: white;
+    }
+}
+
+section.design-five {
+    display: flex;
+    background: linear-gradient(to right, #00093c, #2d0b00);
+    align-items: flex-start;
+    flex-direction: column;
+
+    & .one-logo {
+        display: flex;
+        align-self: center;
+        border-radius: 100%;
+        height: 50px;
+        position: relative;
+    }
+
+    & .content {
+        text-decoration: none;
+        align-self: center;
+        position: relative;
+        margin: 1rem;
+
+        & a {
+            color: white;
+            font-weight: 600;
+            font-size: 1.1rem;
+        }
+    }
+
+    & .disclaimer {
+        font-size: .8rem;
+        width: 5vw;
+        display: flex;
+        align-self: center;
+        height: 100%;
+        color: white;
+    }
+}
