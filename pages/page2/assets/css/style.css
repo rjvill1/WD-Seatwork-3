@@ -59,14 +59,19 @@ section.design-one {
         width: 5vw;
         display: flex;
         align-self: center;
+        align-items: center;
         height: 100%;
         color: white;
+        
+        & i {
+            margin: .5rem;
+        }
     }
 }
 
 section.design-two {
     display: flex;
-    background: linear-gradient(to right, #00093c, #2d0b00);
+    background: white;
     align-items: flex-start;
     flex-direction: row;
     justify-content: space-between;
@@ -84,11 +89,11 @@ section.design-two {
         align-self: center;
         position: relative;
         margin: 1rem;
-        color: white;
+        color: rgb(0, 81, 194);
         gap: 1rem;
 
         & i {
-            color: white;
+            color: rgb(0, 81, 194);
             font-weight: 600;
             font-size: 1.1rem;
             padding: 1rem;
@@ -102,13 +107,17 @@ section.design-two {
         align-self: center;
         align-items: center;
         height: 100%;
-        color: white;
+        color: rgb(0, 81, 194);
+        
+        & i {
+            margin: .5rem;
+        }
     }
 }
 
 section.design-three {
     display: flex;
-    background: linear-gradient(to right, #00093c, #2d0b00);
+    background: rgb(12,27,35);
     align-items: flex-start;
     flex-direction: row;
     justify-content: space-evenly;
@@ -128,7 +137,7 @@ section.design-three {
         margin: 1rem;
 
         & a {
-            color: white;
+            color: rgb(250,68,84);
             font-weight: 600;
             font-size: 1.1rem;
             padding: 1.5rem;
@@ -139,16 +148,20 @@ section.design-three {
         font-size: .8rem;
         width: 5vw;
         display: flex;
+        align-self: center;
         align-items: center;
         height: 100%;
-        color: white;
-        position: relative;
+        color: rgb(250,68,84);
+        
+        & i {
+            margin: .5rem;
+        }
     }
 }
 
 section.design-four {
     display: flex;
-    background: linear-gradient(to right, #00093c, #2d0b00);
+    background: black;
     align-items: flex-start;
     justify-content: space-between;
 
@@ -189,15 +202,20 @@ section.design-four {
         font-size: .8rem;
         width: 5vw;
         display: flex;
+        align-self: center;
         align-items: center;
         height: 100%;
         color: white;
+        
+        & i {
+            margin: .5rem;
+        }
     }
 }
 
 section.design-five {
     display: flex;
-    background: linear-gradient(to right, #00093c, #2d0b00);
+    background: white;
     align-items: flex-start;
     flex-direction: row-reverse;
     justify-content: space-between;
@@ -217,7 +235,7 @@ section.design-five {
         margin: 1rem;
 
         & i {
-            color: white;
+            color: black;
             font-weight: 600;
             font-size: 1.1rem;
             padding: 3.5rem;
@@ -231,7 +249,11 @@ section.design-five {
         align-self: center;
         align-items: center;
         height: 100%;
-        color: white;
+        color: black;
+        
+        & i {
+            margin: .5rem;
+        }
     }
 }
 
@@ -278,14 +300,19 @@ section.ani-design-one {
         width: 5vw;
         display: flex;
         align-self: center;
+        align-items: center;
         height: 100%;
         color: white;
+        
+        & i {
+            margin: .5rem;
+        }
     }
 }
 
 section.ani-design-two {
     display: flex;
-    background: linear-gradient(to right, #00093c, #2d0b00);
+    background: white;
     align-items: flex-start;
     flex-direction: row;
     justify-content: space-between;
@@ -304,11 +331,11 @@ section.ani-design-two {
         align-self: center;
         position: relative;
         margin: 1rem;
-        color: white;
+        color: rgb(0, 81, 194);
         padding: 10px 20px;
 
         & i {
-            color: white;
+            color: rgb(0, 81, 194);
             font-weight: 600;
             font-size: 1.1rem;
             position: relative;
@@ -318,7 +345,7 @@ section.ani-design-two {
                 content: '';
                 height: 3px;
                 width: 0;
-                background: white;
+                background: rgb(0, 81, 194);
                 position: absolute;
                 left: 0;
                 bottom: -0.5px;
@@ -338,13 +365,17 @@ section.ani-design-two {
         align-self: center;
         align-items: center;
         height: 100%;
-        color: white;
+        color: rgb(0, 81, 194);
+        
+        & i {
+            margin: .5rem;
+        }
     }
 }
 
 section.ani-design-three {
     display: flex;
-    background: linear-gradient(to right, #00093c, #2d0b00);
+    background: rgb(12,27,35);
     align-items: flex-start;
     flex-direction: row;
     justify-content: space-evenly;
@@ -364,7 +395,7 @@ section.ani-design-three {
         margin: 1rem;
 
         & a {
-            color: white;
+            color: rgb(250,68,84);
             font-weight: 600;
             font-size: 1.1rem;
             padding: 1.5rem;
@@ -379,16 +410,20 @@ section.ani-design-three {
         font-size: .8rem;
         width: 5vw;
         display: flex;
+        align-self: center;
         align-items: center;
         height: 100%;
-        color: white;
-        position: relative;
+        color: rgb(250,68,84);
+        
+        & i {
+            margin: .5rem;
+        }
     }
 }
 
 section.ani-design-four {
     display: flex;
-    background: linear-gradient(to right, #00093c, #2d0b00);
+    background: black;
     align-items: flex-start;
     justify-content: space-between;
 
@@ -438,7 +473,7 @@ section.ani-design-four {
             margin: 4.5rem;
 
             &:hover {
-                color: red;
+                color: purple;
             }
         }
     }
@@ -447,15 +482,20 @@ section.ani-design-four {
         font-size: .8rem;
         width: 5vw;
         display: flex;
+        align-self: center;
         align-items: center;
         height: 100%;
         color: white;
+        
+        & i {
+            margin: .5rem;
+        }
     }
 }
 
 section.ani-design-five {
     display: flex;
-    background: linear-gradient(to right, #00093c, #2d0b00);
+    background: white;
     align-items: flex-start;
     flex-direction: row-reverse;
     justify-content: space-between;
@@ -475,7 +515,7 @@ section.ani-design-five {
         margin: 1rem;
 
         & i {
-            color: white;
+            color: black;
             margin: 3.5rem;
 
             &:hover {
@@ -495,6 +535,10 @@ section.ani-design-five {
         align-self: center;
         align-items: center;
         height: 100%;
-        color: white;
+        color: black;
+        
+        & i {
+            margin: .5rem;
+        }
     }
 }
