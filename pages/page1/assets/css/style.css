@@ -407,7 +407,7 @@ header.ani-design-five {
             color: black;
 
             &:hover {
-                transform: scale(1.5)
+                transform: scale(1.5);
             }
 
             &:active {
